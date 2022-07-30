@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Coming Soon</title>
+  </head>
+  <body>
+    <!-- Nav Start -->
+    <header>
+      <a href="#" class="logo"
+        ><img src="/img/logo.png" width="40px" alt="logo image"
+      /></a>
+      <nav>
+        <ul>
+          <li><button>Sign In</button></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Nav End -->
+
+    <!-- Main Content Start -->
+    <section class="main">
+      <img src="/img/curve 1.png" width="600px" class="wave" alt="Curve" />
+      <div class="content">
+        <h2>Coming Soon</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum veniam
+          harum ab at perferendis distinctio obcaecati reiciendis quos cumque
+          doloremque, explicabo velit laborum similique voluptatum error libero
+          iure amet dignissimos!
+        </p>
+        <!-- Countdown Start -->
+        <div class="countdown">
+          <div class="time">
+            <div id="day"></div>
+            <span>Days</span>
+          </div>
+          <div class="time">
+            <div id="hour"></div>
+            <span>Minutes</span>
+          </div>
+          <div class="time">
+            <div id="minute"></div>
+            <span>Hours</span>
+          </div>
+          <div class="time">
+            <div id="second"></div>
+            <span>Seconds</span>
+          </div>
+        </div>
+        <!-- Countdown End -->
+        <a href="#" onclick="notify();">Notify Me!</a>
+      </div>
+      <div class="imgBx">
+        <img src="/img/soon 1.svg" width="500px" alt="Img" />
+      </div>
+      <!-- Sosmed Start -->
+      <ul class="sosmed">
+        <li>
+          <a href="#"><img src="/img/facebook.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/img/twitter.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/mthoriq_as/" target="_blank"
+            ><img src="/img/instagram.png" alt=""
+          /></a>
+        </li>
+      </ul>
+      <!-- Sosmed End -->
+    </section>
+    <!-- Main Content End -->
+
+    <!-- Form Start -->
+    <div class="form-notify">
+      <h2>Stay Tuned</h2>
+      <p>Get notified at lunch!</p>
+      <div class="inputBox">
+        <form action="">
+          <input
+            type="email"
+            name=""
+            placeholder="Enter Email Address"
+            id=""
+            required
+          />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      <img src="/img/close.png" class="close" onclick="notify()" alt="" />
+    </div>
+    <!-- Form End -->
+  </body>
+</html>
